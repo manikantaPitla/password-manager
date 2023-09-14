@@ -1,0 +1,81 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.password-item-card {
+  width: 300px;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.profile {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+.wup-display-container {
+  flex-grow: 2;
+}
+
+.wup {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+@media (max-width: 900px) {
+  .password-item-card {
+    width: 280px;
+  }
+}
+
+@media (max-width: 600px) {
+  .password-item-card {
+    width: 100%;
+    align-self: stretch;
+  }
+}
